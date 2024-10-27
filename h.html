@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة على الهاتف</title>
+    <style>
+        /* تنسيقات القائمة */
+        .menu {
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            padding: 10px;
+            width: 200px;
+        }
+        .menu-item {
+            padding: 10px;
+            background-color: #ddd;
+            margin: 5px 0;
+            text-align: center;
+            cursor: pointer;
+        }
+        .menu-item:hover {
+            background-color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-item" onclick="openFile()">افتح الملف</div>
+    </div>
+
+    <script>
+        function openFile() {
+            // يمكنك إضافة كود لفتح أو عرض الملف هنا
+            alert("تم فتح الملف!");
+        }
+    </script>
+</body>
+</html>
